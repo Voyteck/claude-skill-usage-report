@@ -1,0 +1,19 @@
+{
+  "name": "usage-report",
+  "version": "1.0.0",
+  "description": "Weekly token-efficiency measurement for Claude Code: main sessions vs subagents, context per call, cache, refusals, cost per merged PR, compared with the previous record.",
+  "author": {
+    "name": "Voyteck",
+    "url": "https://github.com/Voyteck"
+  },
+  "homepage": "https://github.com/Voyteck/claude-skill-usage-report",
+  "repository": "https://github.com/Voyteck/claude-skill-usage-report",
+  "license": "MIT",
+  "keywords": [
+    "tokens",
+    "usage",
+    "cost",
+    "measurement",
+    "subagents"
+  ]
+}
