@@ -1,7 +1,7 @@
 {
   "name": "usage-report",
-  "version": "1.0.0",
-  "description": "Weekly token-efficiency measurement for Claude Code: main sessions vs subagents, context per call, cache, refusals, cost per merged PR, compared with the previous record.",
+  "version": "1.1.0",
+  "description": "SUPERSEDED by the retro plugin (Voyteck/claude-skill-retro 0.5.0+). Weekly token-efficiency measurement for Claude Code: main sessions vs subagents, context per call, cache, refusals, cost per merged PR, compared with the previous record.",
   "author": {
     "name": "Voyteck",
     "url": "https://github.com/Voyteck"

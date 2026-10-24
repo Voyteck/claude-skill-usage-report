@@ -1,5 +1,19 @@
 # claude-usage-report
 
+> **Superseded by [retro](https://github.com/Voyteck/claude-skill-retro) (version 0.5.0 and later).** Every
+> measurement of this skill is now part of each retro: tokens and context per call, cache rebuilds (retro: wake-ups,
+> with their cause), compactions, subagents by type and model, refused and failed tool calls by cause, cloud session
+> cost, cost per merged PR, totals per 10% of the plan and the comparison with previous measurements. Retro adds
+> cost and quality per PR by implementer model, reasoning effort and PR size. This repository stays available but
+> gets no new features; install retro instead:
+>
+> ```text
+> /plugin marketplace add Voyteck/claude-skill-retro
+> /plugin install retro@retro
+> ```
+>
+> The equivalent-tokens index (eqt) was not carried over: retro prices calls with an API price list.
+
 A Claude Code skill that measures how efficiently your Claude Code sessions spend
 tokens, normalises the cost by what the sessions produced (pull requests, closed issues,
 share of your plan), and tells you what got better or worse since the last measurement.
